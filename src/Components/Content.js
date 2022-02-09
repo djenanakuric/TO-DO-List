@@ -36,7 +36,7 @@ const Content = ({ item, setItem, length }) => {
 
                     ))}
                 </ul>
-            ) : (<p>Add your TO DO</p>)}
+            ) : (<p>Add your TO DO list</p>)}
 
         </main>
     )
