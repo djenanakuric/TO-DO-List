@@ -1,7 +1,7 @@
-import React, { useRef } from 'react';
+import React from 'react';
 
 const AddToDo = ({ newItem, setNewItem, handleSubmit }) => {
-    const inputRef = useRef();
+   
     return (
         <form className="addForm" onSubmit={handleSubmit}>
             <label htmlFor="addToDo"> To do: </label>
@@ -16,7 +16,7 @@ const AddToDo = ({ newItem, setNewItem, handleSubmit }) => {
             />
             <button
                 type='submit'
-                onClick={() => inputRef.current.focus()}>Add</button>
+               >Add</button>
 
         </form>
     )
